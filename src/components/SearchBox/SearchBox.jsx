@@ -8,12 +8,13 @@ const SearchBox = () => {
   const filter = useSelector(selectNameFilter);
 
   return (
-    <div>
+    <div className={styles.searchBox}>
       <label>Find contacts by name</label>
       <input
         type="text"
         value={filter}
         onChange={e => dispatch(changeFilter(e.target.value))}
+        className={styles.input}
       />
     </div>
   );

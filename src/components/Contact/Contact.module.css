@@ -7,11 +7,12 @@ li {
     border: 1px solid #9f8a8a;
     border-radius: 4px;
     margin-bottom: 10px;
+    width: 508px;
   }
   
   p {
     margin: 0;
-    
+    font-size: 17px;
   }
 
   span {
@@ -22,7 +23,7 @@ li {
     padding: 5px 10px;
     border: 1px solid #9f8a8a;
     border-radius: 4px;
-    background-color: rgb(230, 226, 226);
+  background-color: rgb(145, 166, 228);
     cursor: pointer;
     align-self: center;
   }
